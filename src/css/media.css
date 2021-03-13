@@ -1,0 +1,107 @@
+@media (max-width: 814px) {
+    .menu-item {
+        display: block;
+        padding: 10px;
+    }
+    .menu-item a {
+        width: 100%;
+    }
+    .nav-box {
+        padding: 24px;
+    }
+    .menu-items {
+        display: none;
+    }
+    .hamburger {
+        content: '';
+        height: 5px;
+        width: 40px;
+        background-color: #ffffff;
+        position: relative;
+        display: block;
+        border-radius: 10px;
+        top: 20px;
+        left: 20px;
+    }
+    .hamburger::after {
+        content: '';
+        height: 5px;
+        width: 40px;
+        background-color: #ffffff;
+        top: 6px;
+        position: relative;
+        display: block;
+        border-radius: 10px;
+    }
+    .hamburger::before {
+        content: '';
+        height: 5px;
+        width: 40px;
+        background-color: #ffffff;
+        top: -12px;
+        position: relative;
+        display: block;
+        border-radius: 10px;
+    }
+    .close {
+        content: '';
+        top:20px;
+        left:20px;
+        height: 5px;
+        width: 40px;
+        background-color: #ffffff;
+        position: relative;
+        display: block;
+        border-radius: 10px;
+        transform: rotate(45deg);
+    }
+    .close::after {
+        content: '';
+        height: 5px;
+        width: 40px;
+        background-color: #ffffff;
+        position: relative;
+        display: block;
+        border-radius: 10px;
+        transform: rotate(-88deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .form {
+        padding: 10px;
+    }
+    .input-text {
+        width: 50%;
+    }
+    .btn-submit {
+        width: 50%;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+}
+
+@media (max-width: 1215px) {
+    .box-contacts {
+        /* position */
+        position: absolute;
+        margin: 5px;
+        top: 40%;
+
+        /* text */
+        text-align: center;
+    }
+}
+
+@media (max-width: 526px) {
+    .input-text {
+        width: 60%;
+    }
+    .btn-submit {
+        width: 60%;
+    }
+}
